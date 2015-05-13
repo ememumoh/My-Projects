@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	color: #333333;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:5px;
+}
+
+thead {
+	background: #3056A0;
+	color: white;
+}
+
+table > caption {
+	font-weight: bold;
+}
+
+tfoot {
+	font-size: 0.75em;
+	text-align:right;
+}
+
+tbody tr:nth-child(even) {
+	background: #E6E6F5;
+}
+
+header {
+	background: #3056A0;
+	color: white;
+	text-align:center;
+	line-height: 70px;	
+	font-size: 3em;
+}
+
+#contactDetails, #contactList {
+	border: 1px solid #999999;
+	margin: 15px;
+	padding:15px;
+}
+
+label {
+	width:150px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+input {
+	width:200px;
+}
+
+.formRow {
+	margin-bottom:10px;
+}
+
+footer {
+	line-height:40px;
+	background: #3056A0;
+	color: white;
+	text-align:center;
+	font-size: 0.8em;
+}
+
+.validated:invalid {
+	background:#FAC3C9;
+}
+
+.validated:valid {
+	background:#BDF0A8;
+}
+
